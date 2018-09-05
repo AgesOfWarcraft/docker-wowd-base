@@ -1,0 +1,7 @@
+steps:
+  - name: 'ubuntu'
+    args: [ 'bash', 'build-gcloud.bash' ] 
+    env:
+      - 'DOCKERHUB_USERNAME=agesofwarcraft'
+      - 'DOCKERHUB_PASSWORD_ENC=CiQAhd454AGB4v5rO8yuT7INtBOWIYI31CEDGL58kKMkR228OrcSOgDELu/xadVBgAiwDhXo0crZaAydRcVyUMT//F7v7mK3Z51w0qebcNKGSOPQJOpMRH939AzHWJuzB38='
+timeout: 20m
